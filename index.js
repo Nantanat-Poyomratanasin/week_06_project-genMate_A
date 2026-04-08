@@ -1,6 +1,6 @@
 const nissan = require("./nissan.js");
-
-const Benz = require("./Benz.js");
+const Tesla = require("./tesla");
+const Benz = require("./Benz.js")
 const Toyota = require("./toyota.js");
 const Car = require("./Car.js");
 
@@ -23,6 +23,17 @@ ae86.typeCar();
 console.log("-------------------");
 
 //Sun
+const ModelY=new Tesla("Y","SUV");
+const Model3=new Tesla("3","Sedan");
+const Cybertruck=new Tesla("Cybertruck","truck");
+
+
+ModelY.callIntroduce();
+ModelY.callModel();
+Model3.callIntroduce();
+Model3.callModel();
+Cybertruck.callIntroduce();
+Cybertruck.callModel();
 
 console.log("-------------------");
 
