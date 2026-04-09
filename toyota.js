@@ -1,5 +1,4 @@
-const Car = require("./Car.js");
-
+const Car = module.require("./Car.js");
 class Toyota extends Car {
   constructor(name, type, driver) {
     super(name, type);

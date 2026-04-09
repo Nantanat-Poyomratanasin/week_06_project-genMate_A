@@ -1,9 +1,9 @@
-const nissan = require("./nissan.js");
-const Tesla = require("./tesla");
-const Benz = require("./Benz.js");
-const Toyota = require("./toyota.js");
-const Car = require("./Car.js");
-const Bugatti = require("./Bugatti.js");
+const nissan = module.require("./nissan.js");
+const Tesla = module.require("./tesla");
+const Benz = module.require("./Benz.js");
+const Toyota = module.require("./toyota.js");
+const Car = module.require("./Car.js");
+const Bugatti = module.require("./Bugatti.js");
 
 //ploy
 const benz1 = new Benz("C-Class Saloon", "Hybrid", 3190000);
